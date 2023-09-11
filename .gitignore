@@ -9,6 +9,8 @@
 /redis-data
 /redis.conf
 /k6
+/obj
+/bin
 
 # User-specific files
 *.suo
