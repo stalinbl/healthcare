@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "ms-dotnettools.csdevkit",
+        "kreativ-software.csharpextensions",
+        "k--kato.docomment",
+        "fudge.auto-using",
+        "fullstackspider.visual-nuget",
+        "formulahendry.dotnet-test-explorer",
+        "jorgeserrano.vscode-csharp-snippets",
+        "adrianwilczynski.namespace"
+    ]
+}

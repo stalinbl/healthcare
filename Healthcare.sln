@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1F775624-A479-4874-9C16-E6199E44BF0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Healthcare.Domain", "src\Healthcare.Domain\Healthcare.Domain.csproj", "{034DF9F4-4BA8-4169-9FB9-8BB630A5DE25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Healthcare.Presentation", "Healthcare.Presentation", "{36468A1F-D788-422F-814D-7EE4FFE2E4E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Healthcare.Presentation.Cls", "src\Healthcare.Presentation\Healthcare.Presentation.Cls\Healthcare.Presentation.Cls.csproj", "{B29B419E-B199-436C-BA1D-AF3486A00327}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{034DF9F4-4BA8-4169-9FB9-8BB630A5DE25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034DF9F4-4BA8-4169-9FB9-8BB630A5DE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034DF9F4-4BA8-4169-9FB9-8BB630A5DE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034DF9F4-4BA8-4169-9FB9-8BB630A5DE25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B29B419E-B199-436C-BA1D-AF3486A00327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29B419E-B199-436C-BA1D-AF3486A00327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29B419E-B199-436C-BA1D-AF3486A00327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29B419E-B199-436C-BA1D-AF3486A00327}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{034DF9F4-4BA8-4169-9FB9-8BB630A5DE25} = {1F775624-A479-4874-9C16-E6199E44BF0B}
+		{36468A1F-D788-422F-814D-7EE4FFE2E4E6} = {1F775624-A479-4874-9C16-E6199E44BF0B}
+		{B29B419E-B199-436C-BA1D-AF3486A00327} = {36468A1F-D788-422F-814D-7EE4FFE2E4E6}
+	EndGlobalSection
+EndGlobal
