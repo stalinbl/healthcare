@@ -7,8 +7,8 @@ namespace Healthcare.Domain
         public DateTimeOffset? UpdatedIn { get; private set; }
         public DateTimeOffset? DeletedIn { get; private set; }
         
-        public bool IsActive 
-            => !DeletedIn.HasValue;
+        public abstract bool IsActive { get; }
+            
 
         public Audit()
         {
