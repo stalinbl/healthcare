@@ -1,4 +1,3 @@
-
 using Healthcare.Domain.Enuns;
 
 namespace Healthcare.Domain
