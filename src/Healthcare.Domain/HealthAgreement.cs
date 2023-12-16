@@ -1,15 +1,18 @@
 using System.Collections.Immutable;
+using Healthcare.Domain.Patients;
 
 namespace Healthcare.Domain
 {
-    public class HealthAgreement
+    public sealed class HealthAgreement : Audit
     {
         public string Name { get; private set; } = string.Empty;
         public string Cnpj { get; private set; } = string.Empty;
         
         private ICollection<Patient> _patinets;
         public IReadOnlyCollection<Patient> Patinets => _patinets.ToImmutableList();
-        
+
+        public override bool IsActive => DeletedIn.HasValue;
+
         public HealthAgreement(string name, string cnpj)        
         {
             ArgumentException.ThrowIfNullOrEmpty(name, nameof(name));

@@ -1,19 +1,19 @@
 using Healthcare.Domain.Dtos;
 
-namespace Healthcare.Domain
+namespace Healthcare.Domain.Patients
 {
     public sealed partial class Patient
     {
         public static implicit operator PatientDto(Patient patient)
-            => new PatientDto 
+            => new ()
             {
                 Id = patient.Id,
-                FullName = patient.Name,
+                FullName = $"{patient.FirstName} {patient.LastName}",
                 Gender = patient.Gender,
             };
 
         public static explicit operator PatientQuery(Patient patient)
-            => new PatientQuery 
+            => new()
             {
                 Id = patient.Id,
                 FirstName = patient.FirstName,
